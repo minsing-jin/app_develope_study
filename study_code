@@ -1,3 +1,5 @@
+"""dart
+
 void main() {
 // 1번 강의 hello world
 print("hello world");
@@ -35,3 +37,4 @@ print("hello world");
   print(number3/number4);
   
 }
+"""
