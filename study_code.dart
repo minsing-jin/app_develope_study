@@ -1,12 +1,11 @@
-"""dart
 
 void main() {
-// 1번 강의 hello world
-print("hello world");
+ // 1번 강의 hello world
+ print("hello world");
 
-// 2번 강의 변수 선언법
- var name = '코드팩토리';
- print(name);
+ // 2번 강의 변수 선언법
+  var name = '코드팩토리';
+  print(name);
   
  // numbers 선언 + 사칙연산
   int number1 = 12;
@@ -37,4 +36,3 @@ print("hello world");
   print(number3/number4);
   
 }
-"""
