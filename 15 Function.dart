@@ -53,4 +53,49 @@ int addList(List testList, int a){
 }
 
 
+------------------------------------------------------------------------
+  // named parameter example
+
+void main() {
+  List testList2 = [
+    10,
+    20,
+    30,
+    40, 
+    50,
+  ];
+ 
+  int result2 = addList(testList2, 1, b : 3);
+  
+  print(result2);
+
+}
+
+
+int addList(List testList, int a, {
+  required int b
+}){
+  int total = a;
+  
+  for(int number in testList){
+    total += number;
+  }
+  
+  return total;
+}
+
+// named parameter 오류 
+//The parameter 'factor' can't have a value 
+// of 'null' because of its type, and no 
+// non-null default value is provided.
+
+// why
+//Why
+//The reason this happens is because with null safety enabled, your non-nullable parameter factor or key cannot be null.
+// In the function and the constructor, these values might be null when the function is called without the named parameter: calculate() or Foo(). However because the types (int and Key) are non-nullable, this is invalid code - they must never be null.
+
+// solution
+// required를 앞에 붙임
+
+
 
