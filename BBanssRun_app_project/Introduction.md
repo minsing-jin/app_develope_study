@@ -17,8 +17,6 @@
 # Goal
 1. To learn about app develop
 2. Study dart
-3. Contribute military opensource academy 
-
 
 # Contect
 
